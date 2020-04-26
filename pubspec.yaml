@@ -1,0 +1,29 @@
+name: Xylophone
+description: A Xylophone app, play your song with style.
+
+version: 1.0.0+1
+
+environment:
+    sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    cupertino_icons: ^0.1.2
+    audioplayers: ^0.15.1
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_launcher_icons: "^0.7.3"
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/sounds/
+
+flutter_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/icon/xylophone.png"
